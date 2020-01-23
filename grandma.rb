@@ -15,9 +15,9 @@
 def speak_to_grandma(phrase)
   if phrase isnt all uppercase
       "HUH?! SPEAK UP, SONNY!"  
-  elsif phrase is all uppercase
+  elsif phrase.upc
       "NO, NOT SINCE 1938!"
-  elsif phrase = "I LOVE YOU GRANDMA!"
+  elsif phrase == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
   end
 end
